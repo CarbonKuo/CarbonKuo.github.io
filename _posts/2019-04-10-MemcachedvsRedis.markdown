@@ -36,7 +36,8 @@ Redis & Memchached 之間的相似之處:
 Memcached/Redis 兩者資源提供都是基於記憶體、Key-Value資料儲存，儘管Redis更準確的說是結構化資料儲存。 Redis是記憶體中的結構化資料儲存器，用於資料庫、暫存、消息代理。兩者（Memcached/Redis）都屬於資料管理方案中的NoSQL家族，都是基於Key-Value儲存的。它們都在記憶體中保存資料，當然使它們作為暫存層特別有用。
 
 #### Redis & Memchached 的架構
-![Imgur Image](https://imgur.com/mhDayK3.png)
+
+![Image](https://i.imgur.com/mhDayK3.png ,"Redis & Memchached")
 
 Memcached提供的每項主要功能及其優勢，都是Redis功能和特性的子集。任何用例中可能使用Memcached的地方都可以對等的使用Redis。
 Memcached是一個基於易失性記憶體的Key-Value儲存器。
@@ -87,6 +88,7 @@ Redis可能會非常有用的一些範例應用程序：
 Redis的單線程設計，同時也帶來了一些重要的隱患。 Redis有資料持久化功能，這個功能與Redis的單線程特性結合，就成了Redis故障的好發區。預設的RDB持久化會阻塞線程，使得Redis對正常請求無法響應，在高流量網站上容易出現大量請求錯誤。當然後來Redis也發展出了AOF持久化方式（預設沒有開啟，要手動開啟），一定程度上減緩了Redis的持久化問題。 Redis會fork一個子進程來單獨處理持久化。可是fork功能並非無代價，它一樣有消耗記憶體資源，影響主程序響應請求的問題。
 
 #### 本篇的學習參考資料
+
 | 標題   | URL                                                |
 | ------------ | ---------------------------------------------------|
 | Memcached vs. Redis?   | [https://stackoverflow.com](https://stackoverflow.com/questions/10558465/memcached-vs-redis)           |
