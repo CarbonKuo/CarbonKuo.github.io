@@ -5,23 +5,23 @@
     <description>正在努力學習Python Flask、Java SSM架構，以及網站運維等知識。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Apr 2019 05:59:03 +0800</pubDate>
-    <lastBuildDate>Mon, 22 Apr 2019 05:59:03 +0800</lastBuildDate>
+    <pubDate>Mon, 22 Apr 2019 06:01:37 +0800</pubDate>
+    <lastBuildDate>Mon, 22 Apr 2019 06:01:37 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Memcached vs Redis 適用的狀況淺見</title>
-        <description>&lt;h2 id=&quot;常見的記憶體暫存服務-memchached-還是-redis&quot;&gt;常見的記憶體暫存服務： Memchached 還是 Redis?&lt;/h2&gt;
+        <description>&lt;h3 id=&quot;常見的記憶體暫存服務memchached-還是-redis&quot;&gt;常見的記憶體暫存服務：Memchached 還是 Redis?&lt;/h3&gt;
 &lt;p&gt;隨著業務需求的擴張以及業務的多樣性，這時候我們的系統就需要增加新的功能，有時候是短時間需要處理大量請求的系統，又是較低硬體設備成本的選擇，該用哪一個？又或者需要改進性能的時候，這是每次技術討論中最常見的一個問題。每當性能需要改善時，採用暫存常常是邁出的第一步。那麼，選擇Memcached 或者 Redis 通常就是需要考慮的地方。哪個能給我們提供更佳的性能？它們的優點和缺點又是什麼？&lt;/p&gt;
 
-&lt;h3 id=&quot;簡單介紹&quot;&gt;簡單介紹：&lt;/h3&gt;
+&lt;h4 id=&quot;簡單介紹&quot;&gt;簡單介紹：&lt;/h4&gt;
 &lt;h4 id=&quot;redis&quot;&gt;Redis&lt;/h4&gt;
 &lt;p&gt;Redis ( REmote DIctionary Server )是一個使用ANSI C編寫的開源內存資料庫系統、支援網路、基於記憶體、它支持數據持久化(也就是你可以把它存在內存中的數據 dump 到硬碟上,以備下次載入 Redis 時使用), 它支持多種抽象的數據結構(字符串、列表、映射、集合、有序集合、位圖,空間索引等)。&lt;/p&gt;
 
 &lt;h4 id=&quot;memcached&quot;&gt;Memcached&lt;/h4&gt;
 &lt;p&gt;Memcached 是一種開源的，高性能分布式記憶體對象緩存系統，本質上它是通用的，但最初的目的是通過減輕資料庫負載以加速動態web應用程式, 這也是它現今主要的用途。出道比較早的 Memcached 簡潔且高效,但其簡單的數據類型系統讓它在某些應用場合下不那麼合適。&lt;/p&gt;
 
-&lt;h3 id=&quot;在設計任何暫存系統時我們考慮如下幾點&quot;&gt;在設計任何暫存系統時，我們考慮如下幾點：&lt;/h3&gt;
+&lt;h4 id=&quot;在設計任何暫存系統時我們考慮如下幾點&quot;&gt;在設計任何暫存系統時，我們考慮如下幾點：&lt;/h4&gt;
 
 &lt;h4 id=&quot;readwrite-speed&quot;&gt;Read/write speed&lt;/h4&gt;
 &lt;p&gt;兩者都非常快。
