@@ -5,8 +5,8 @@
     <description>正在努力學習Python Flask、Java SSM架構，以及網站運維等知識。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Apr 2019 05:51:43 +0800</pubDate>
-    <lastBuildDate>Mon, 22 Apr 2019 05:51:43 +0800</lastBuildDate>
+    <pubDate>Mon, 22 Apr 2019 05:59:03 +0800</pubDate>
+    <lastBuildDate>Mon, 22 Apr 2019 05:59:03 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -33,11 +33,11 @@
 &lt;p&gt;除非，我們投入大量的硬體和資源建立龐大的 Memcached ，如以上的數據顯示，兩者效能是差不多的，如果以成本以及開發效率為考量會優先採用 Redis 會是比較好的作法。&lt;/p&gt;
 
 &lt;h4 id=&quot;記憶體使用率&quot;&gt;記憶體使用率&lt;/h4&gt;
-&lt;p&gt;memcached：使用者指定暫存大小，當您新增項目時，守護程序會快速增長到略大於此大小。除了重新啟動memcached之外，從來沒有真正的方法可以回收任何空間。您的所有密鑰都可能已過期，您可以刷新資料庫，它仍將使用您配置的完整RAM塊。
-redis：設置最大尺寸取決於您。Redis將永遠不會使用超過它，並給你回收記憶體空間從不再使用的記憶體區塊。&lt;/p&gt;
+&lt;p&gt;memcached：使用者指定暫存大小，當您新增項目時，守護程序會快速增長到略大於此大小。除了重新啟動memcached之外，從來沒有真正的方法可以回收任何空間。將使用配置的整塊記憶體。
+Redis：設置最大尺寸取決於您。Redis將永遠不會使用超過它，並給你回收記憶體空間從不再使用的記憶體區塊。&lt;/p&gt;
 
 &lt;h4 id=&quot;硬碟的-io-轉存&quot;&gt;硬碟的 I/O 轉存&lt;/h4&gt;
-&lt;p&gt;redis明顯地優於 Memcached，因為它默認執行此硬碟的轉存並且具有非常好的持久可配置性。 如果沒有第三方套件或工具，Memcached並沒有轉存到硬碟的機制。&lt;/p&gt;
+&lt;p&gt;Redis明顯地優於 Memcached，因為它默認執行此硬碟的轉存並且具有非常好的持久可配置性。 如果沒有第三方套件或工具，Memcached並沒有轉存到硬碟的機制。&lt;/p&gt;
 
 &lt;h4 id=&quot;擴展性&quot;&gt;擴展性&lt;/h4&gt;
 &lt;p&gt;Redis &amp;amp; Memchached 之間的相似之處:
