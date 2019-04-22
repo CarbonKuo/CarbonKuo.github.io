@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Memcached vs Redis 適用的狀況淺見
+title: Memcached vs Redis 適用的狀況思考
 date: 2019-04-11 01:32:24.000000000 +09:00
 ---
 ### 常見的記憶體暫存服務：Memchached 還是 Redis?
