@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>貓貓工程師成長日記</title>
-    <description>正在努力學習Python Flask、Java SSM架構，以及網站運維等知識。</description>
+    <title>碳貓工程師成長日記</title>
+    <description>正在努力學習Java SSM架構、Python Flask，AWS EC2運維等知識。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Apr 2019 21:30:48 +0800</pubDate>
-    <lastBuildDate>Mon, 22 Apr 2019 21:30:48 +0800</lastBuildDate>
+    <pubDate>Fri, 03 May 2019 02:27:33 +0800</pubDate>
+    <lastBuildDate>Fri, 03 May 2019 02:27:33 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
