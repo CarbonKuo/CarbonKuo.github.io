@@ -146,16 +146,16 @@
 
 <h4 id="readwrite-speed">Read/write speed</h4>
 <p>兩者都非常快。
-<img src="http://synsem.com/MCD_Redis_EMS/images/mcdRedisWriteOpsPerSec.png" alt="Image" /></p>
+<img src="https://imgur.com/W06c4jI.png" alt="Image" /></p>
 
-<p><img src="http://synsem.com/MCD_Redis_EMS/images/mcdRedisReadOpsPerSec.png" alt="Image" />
+<p><img src="https://imgur.com/0ImIAsY.png" alt="Image" />
 <a href="http://synsem.com">資料來源＿Synthetic Semantics</a></p>
 
 <p>除非，我們投入大量的硬體和資源建立龐大的 Memcached ，如以上的數據顯示，兩者效能是差不多的，如果以成本以及開發效率為考量會優先採用 Redis 會是比較好的作法。</p>
 
 <h4 id="記憶體使用率">記憶體使用率</h4>
-<p>memcached：使用者指定暫存大小，當您新增項目時，守護程序會快速增長到略大於此大小。除了重新啟動memcached之外，沒有其他的方法可以回收空間。將使用配置的整塊記憶體。
-Redis：設置最大尺寸取決於您。Redis將永遠不會使用超過它，並提供回收記憶體空間且不再使用此記憶體區塊。</p>
+<p>memcached：使用者指定暫存大小，當您新增項目時，守護程序會快速增長到略大於此大小。除了重新啟動memcached之外，沒有其他的方法可以回收空間，將使用配置的整塊記憶體。
+Redis：設置最大尺寸取決於我們的專案合適的情境，Redis將永遠不會使用超過設定，並提供回收記憶體空間且不再使用此記憶體區塊。</p>
 
 <h4 id="硬碟的-io-轉存">硬碟的 I/O 轉存</h4>
 <p>Redis明顯地優於 Memcached，因為它默認執行此硬碟的轉存並且具有非常好的持久可配置性。 如果沒有第三方套件或工具，Memcached並沒有轉存到硬碟的機制。</p>
@@ -290,7 +290,7 @@ Redis一樣可以做到（跟Memcached做得一樣好），不僅如此，它還
             <section class="footer">
     <footer>
     	<span class="footer__copyright">本站採用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知識共享 署名-非商業性使用-相同方式共享 4.0 國際 許可協議</a></span>
-        <span class="footer__copyright">藉由 <a href="https://jekyllrb.com">Jekyll</a> 於 2019-05-03 搭建</span>
+        <span class="footer__copyright">藉由 <a href="https://jekyllrb.com">Jekyll</a> 於 2019-07-11 搭建</span>
         <span class="footer__copyright">本站由 <a href="https://CarbonKuo.github.io">@CarbonKuo</a> 創建，採用 Vno - Jekyll作為主題- &copy; 2019</span>
     </footer>
 </section>
