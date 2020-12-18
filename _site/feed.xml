@@ -5,8 +5,8 @@
     <description>正在努力學習Java SSM架構、Python Flask，AWS EC2運維等知識。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jul 2019 06:03:44 +0800</pubDate>
-    <lastBuildDate>Thu, 18 Jul 2019 06:03:44 +0800</lastBuildDate>
+    <pubDate>Fri, 18 Dec 2020 23:44:31 +0800</pubDate>
+    <lastBuildDate>Fri, 18 Dec 2020 23:44:31 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -19,7 +19,7 @@
 &lt;p&gt;Redis ( REmote DIctionary Server )是一個使用ANSI C編寫的開源記憶體資料庫系統、支援網路、基於記憶體、它支持資料持久化(也就是你可以把它存在記憶體中的資料 dump 到硬碟上,以備下次載入 Redis 時使用), 它支持多種抽象的資料結構(字符串、列表、映射、集合、有序集合、位圖,空間索引等)。&lt;/p&gt;
 
 &lt;h4 id=&quot;memcached&quot;&gt;Memcached&lt;/h4&gt;
-&lt;p&gt;Memcached 是一種開源的，高性能分布式記憶體對象緩存系統，本質上它是通用的，但最初的目的是通過減輕資料庫負載以加速動態web應用程式, 這也是它現今主要的用途。出道比較早的 Memcached 簡潔且高效,但其簡單的資料類型系統讓它在某些應用場合下不那麼合適。&lt;/p&gt;
+&lt;p&gt;Memcached 是一種開源且高性能的分布式記憶體對象緩存系統，最初的目的是通過減輕資料庫負載以加速動態web應用程式，這也是它現今主要的用途。Memcached 的特性是簡潔且高效,但其簡單的資料類型系統讓它在某些應用場合下不是那麼合適。&lt;/p&gt;
 
 &lt;h4 id=&quot;在設計任何暫存系統時我們考慮如下幾點&quot;&gt;在設計任何暫存系統時，我們考慮如下幾點：&lt;/h4&gt;
 
@@ -30,7 +30,7 @@
 &lt;p&gt;&lt;img src=&quot;https://imgur.com/0ImIAsY.png&quot; alt=&quot;Image&quot; /&gt;
 &lt;a href=&quot;http://synsem.com&quot;&gt;資料來源＿Synthetic Semantics&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;除非，我們投入大量的硬體和資源建立龐大的 Memcached ，如以上的數據顯示，兩者效能是差不多的，如果以成本以及開發效率為考量會優先採用 Redis 會是比較好的作法。&lt;/p&gt;
+&lt;p&gt;除非，我們投入大量的硬體和資源建立龐大的 Memcached ，否則應如以上的數據顯示，兩者效能是差不多的，如果以成本以及開發效率為考量會優先採用 Redis 會是比較好的作法。&lt;/p&gt;
 
 &lt;h4 id=&quot;記憶體使用率&quot;&gt;記憶體使用率&lt;/h4&gt;
 &lt;p&gt;memcached：使用者指定暫存大小，當您新增項目時，守護程序會快速增長到略大於此大小。除了重新啟動memcached之外，沒有其他的方法可以回收空間，將使用配置的整塊記憶體。
@@ -77,10 +77,10 @@ Redis一樣可以做到（跟Memcached做得一樣好），不僅如此，它還
 7. 內置集群支持 (3.0及以上版本)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;強大的資料類型尤為重要。它們允許Redis提供一個出色的共享佇列（list），一個很棒的消息傳遞（pub/sub）解決方案，一個存儲會話信息（hashes）的好地方，還有一個引人注目的高分值追踪區域（sorted sets）。它們僅僅是簡單探討就能得到的使用樣例。&lt;/p&gt;
+&lt;p&gt;強大的資料類型尤為重要。Redis提供出色的共享佇列（list）、優秀的消息傳遞（pub/sub）解決方案，也是一個存儲會話信息（hashes）的好地方，還有一個引人注目的高分值追踪區域（sorted sets）。&lt;/p&gt;
 
 &lt;h4 id=&quot;結論&quot;&gt;結論&lt;/h4&gt;
-&lt;p&gt;Redis與Memcached相比，性能和記憶體使用情況相當相似。除非你已經在Memcached上投入了大筆資金，不訪可以採用Redis。&lt;/p&gt;
+&lt;p&gt;Redis與Memcached相比，性能和記憶體使用情況相當相似。除非你已經在Memcached上投入了大筆資金，不妨可以採用Redis。&lt;/p&gt;
 
 &lt;p&gt;Redis可能會非常有用的一些範例應用程序：&lt;/p&gt;
 
