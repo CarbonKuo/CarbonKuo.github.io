@@ -24,8 +24,9 @@ date: 2022-05-02 01:32:24.000000000 +09:00
 15. Forgot password, sent an email to reset password.
 ```
 
-![Image](https://imgur.com/W06c4jI.png)
-![Image](https://imgur.com/W06c4jI.png)
+![Image](https://imgur.com/xQ5qzhD.png)
+![Image](https://imgur.com/AFpKPFE.png)
+![Image](https://imgur.com/w3cak6K.png)
 
 #### NAS/RAID Management Interface, AngularJS, 2019.08 – 2021.03
 
@@ -36,7 +37,7 @@ date: 2022-05-02 01:32:24.000000000 +09:00
 4. Maintain the communication interface between WebSocket and the front-end middleware service.
 ```
 
-![Image](https://imgur.com/W06c4jI.png)
+![Image](https://imgur.com/8ezbFMD.png)
 
 #### CICD Flow, 2019.08 – 2021.03
 
@@ -45,7 +46,7 @@ date: 2022-05-02 01:32:24.000000000 +09:00
 2. Import GitLab runner and use pipeline to control the achievement of goals in each test stage.
 ```
 
-![Image](https://imgur.com/W06c4jI.png)
+![Image](https://imgur.com/i4kHuKT.png)
 
 #### ClassCat online test platform, 2018.12 – 2019.06
 
@@ -57,4 +58,4 @@ date: 2022-05-02 01:32:24.000000000 +09:00
 5. Manage grades, subjects, classes, teachers, students, test papers, test questions, schedules, historical test records, etc.
 ```
 
-![Image](https://imgur.com/W06c4jI.png)
+![Image](https://imgur.com/5iZzuQu.png)

@@ -5,8 +5,8 @@
     <description>Those who bring sunshine into the lives of others, cannot keep it from themselves.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 May 2022 17:11:06 +0800</pubDate>
-    <lastBuildDate>Tue, 03 May 2022 17:11:06 +0800</lastBuildDate>
+    <pubDate>Tue, 03 May 2022 17:38:49 +0800</pubDate>
+    <lastBuildDate>Tue, 03 May 2022 17:38:49 +0800</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -30,8 +30,9 @@
 15. Forgot password, sent an email to reset password.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/W06c4jI.png&quot; alt=&quot;Image&quot; /&gt;
-&lt;img src=&quot;https://imgur.com/W06c4jI.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/xQ5qzhD.png&quot; alt=&quot;Image&quot; /&gt;
+&lt;img src=&quot;https://imgur.com/AFpKPFE.png&quot; alt=&quot;Image&quot; /&gt;
+&lt;img src=&quot;https://imgur.com/w3cak6K.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;nasraid-management-interface-angularjs-201908--202103&quot;&gt;NAS/RAID Management Interface, AngularJS, 2019.08 – 2021.03&lt;/h4&gt;
 
@@ -41,7 +42,7 @@
 4. Maintain the communication interface between WebSocket and the front-end middleware service.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/W06c4jI.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/8ezbFMD.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;cicd-flow-201908--202103&quot;&gt;CICD Flow, 2019.08 – 2021.03&lt;/h4&gt;
 
@@ -49,7 +50,7 @@
 2. Import GitLab runner and use pipeline to control the achievement of goals in each test stage.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/W06c4jI.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/i4kHuKT.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;classcat-online-test-platform-201812--201906&quot;&gt;ClassCat online test platform, 2018.12 – 2019.06&lt;/h4&gt;
 
@@ -60,7 +61,7 @@
 5. Manage grades, subjects, classes, teachers, students, test papers, test questions, schedules, historical test records, etc.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/W06c4jI.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/5iZzuQu.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 May 2022 00:32:24 +0800</pubDate>
         <link>http://localhost:4000/2022/05/ProjectExperiences/</link>
