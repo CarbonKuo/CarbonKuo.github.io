@@ -1,11 +1,4 @@
 .DS_Store
-_includes
-_layouts
-_posts
-_sass
-_site
 .jekyll-cache
 .sass-cache
-feed.xml
-Gemfile
 Gemfile.lock
