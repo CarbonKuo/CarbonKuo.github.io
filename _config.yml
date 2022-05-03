@@ -1,0 +1,46 @@
+# Basic
+title: 碳貓工程師成長日記
+subtitle: 吾生也有涯，而知也無涯。以有涯隨無涯，殆已。
+welcome_message: Hi, I'm CarbonKuo, a software engineer.
+description: Those who bring sunshine into the lives of others, cannot keep it from themselves.
+creator: <a href="https://CarbonKuo.github.io">@CarbonKuo</a>
+
+url: "https://CarbonKuo.github.io"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Project Experiences, description: Project Experiences, url: '/2022/05/ProjectExperiences/'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: carbonkuo
+    # duoshuo:
+
+# Social
+social:
+    github: CarbonKuo
+    mail: CarbonKuo@gmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
